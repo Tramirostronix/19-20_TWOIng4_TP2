@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+		<link rel="bootstrap" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 		<style>
@@ -30,20 +31,21 @@
 				<div class= "row">
 					<!--on met la premiere ligne du site-->
 
-					<div class= "col-lg-3"> 
+					<div class= "col-lg-3 col-sm-3 col-xs-3"> 
 					<div class="logo-search">
 					<img class="pull-left" src="img/logo.png" />
 				</div>
 					</div>
-
-					<div class= "col-lg-3">
+					<div class= "col-lg-3 col-sm-4 col-xs-5">
+						<div id="recherche">
 				<form method="POST" action="index.html">
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
 			</div>
+		</div>
 
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-sm-5 col-xs-4">
 				<div class="user">
 					<div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -67,7 +69,8 @@
 
 		
 			<!--deuxieme ligne -->
-<div class="col-lg-2 hidden-xs hidden-sm">
+<div class="col-lg-2  col-sm-2">
+			<div id="menuGauche">
 			<h3>Browse</h3>
 			<nav class="browse">
 				<ul class="main">
@@ -84,22 +87,31 @@
 					<li><a class="history" href="#">History</a></li>
 				</ul>
 			</nav>
+		</div>
 		</aside>
-
 		<main>
-			<div class= "col-lg-10">
+			<div class= "col-lg-10 col-sm-12 my-col">
 			<header>
+					<div class="row">
 				<div class="name-photo">
+					<div class="col-lg-1 col-sm-1">
 					<aside>
 						<img src="img/artist.png" />
 					</aside>
+				</div>
+				<div class="col-lg-11 col-sm-11">
 					<div class="name">
 						<h1>Luke Chesser</h1>
-						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+						<div class="row">
+							<div class="col-lg-3 col-sm-4"><p>Montreal, Quebec, Canada</div> 
+								<div clas="col-lg-9 col-sm-8"><div id="socialNetwork"> <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a> </div> </div></p>
 					</div>
 				</div>
+			</div>
+		</div>
+		</div>
 				<div class= "row">
-					<div class= "col-lg-9">
+					<div class= "col-lg-9 col-sm-9">
 				<div class="stats-links">
 					<section class="stats">
 						<span>2 Playlists</span>
@@ -109,7 +121,7 @@
 					</section>
 				</div>
 			</div>
-			<div class = "col-lg-3">
+			<div class = "col-lg-3 col-sm-3">
 					<div class="links">
 						<div>
 							<br>
@@ -122,10 +134,10 @@
 			</header>
 
 <div class="row">
-	<div class="col-lg-10">
+	<div class="col-lg-10 col-sm-9">
 			<h2>Top Album</h2>
 		</div>
-		<div class= "col-lg-2">
+		<div class= "col-lg-2 col-sm-3">
 			<div>
 				<a class="station" href="#">Start Station</a>
 			</div>
