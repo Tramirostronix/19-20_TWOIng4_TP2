@@ -1,9 +1,18 @@
+.dropdown-menu {
+    text-align: center; 
+}
+
+img{
+    border: none;
+}
+
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
     font-style: normal; 
     font-weight: bold;
 }
+
 
 * { 
     font-family: 'My Lucida', Console;
