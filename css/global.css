@@ -1,4 +1,23 @@
-@media all and (max-width: 550px) {
+@media all and (max-width: 1400px) {
+    body{
+        font-size: 110%;  
+
+    }
+}
+
+@media all and (max-width: 600px){
+    body {
+        font-size: 85%; 
+    }
+}
+
+@media all and (max-width: 450px) {
+    body {
+        font-size: 60%; 
+    }
+}
+
+@media all and (max-width: 576px) {
     #recherche {
         display: none; 
     }
@@ -8,14 +27,14 @@
     text-align: center; 
 }
 
-@media all and (max-width: 951px) and (orientation:portrait) {
+@media all and (max-width: 992px) and (orientation:portrait) {
 #menuGauche {
     display: none; 
 }
 
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 576px) {
     #socialNetwork {
         display: none; 
     }
